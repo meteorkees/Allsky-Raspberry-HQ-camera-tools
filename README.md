@@ -9,7 +9,7 @@ The script LightConditionTool.py will return an integer for the 5 different main
   4. Night (sun more then 18 degrees below horizon)
 
 The Python package Ephem is used. To install do: < pip install ephem >
-Further information about this package can be found here: https://pypi.org/project/ephem/
+Further information about this package can be found here: https://pypi.org/project/ephem/ or https://rhodesmill.org/pyephem/
 
 Change the observer_location latitude and longtitude to compute the current 'light' condition (cs) for that location.
 The script will return an integer [0-4].
