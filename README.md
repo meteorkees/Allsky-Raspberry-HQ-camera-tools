@@ -8,7 +8,7 @@ The script LightConditionTool.py will return an integer for the 5 different main
   3. Astronomical twilight (sun between 12 and 18 degreees below horizon)
   4. Night (sun more then 18 degrees below horizon)
 
-the Python package Ephem is used. To install do: pip install ephem
+The Python package Ephem is used. To install do: pip install ephem
 Further information about this package can be found here: https://pypi.org/project/ephem/
 
 Change the observer_location latitude and longtitude to compute the current 'light' condition (cs) for that location.
