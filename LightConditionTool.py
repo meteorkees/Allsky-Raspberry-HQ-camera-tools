@@ -3,9 +3,9 @@ from math import pi
 
 observer_location = ephem.Observer()
 observer_location.lat='0.0000' #latitude in decimal degrees. North = +
-observer_location.lon='0.0000' #longtitide in decimal degrees. West = -
+observer_location.lon='0.0000' #longtitide in decimal degrees. East = +
 # %% these parameters are for super-precise estimates, not necessary.
-observer_location.elevation = 6 # meters above mean sealevel
+observer_location.elevation = 6 # meters above mean sealevel (assuming the IERS 1989 ellipsoid (flattening =1/298.257))
 #observer_location.pressure = 1010 # millibar
 #observer_location.temp = 12 # deg. Celcius
 
